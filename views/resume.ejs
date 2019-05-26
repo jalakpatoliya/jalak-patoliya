@@ -1,0 +1,623 @@
+<% include ./partials/header %>
+
+<div class="ui container"><br>
+   
+
+    <div class="ui yellow raised segment">
+        <div class="ui stackable grid">
+            <div class="row">
+                <div class="two wide column align-center">
+                    <img class="ui small circular image" src="/images/resume.png">
+                </div>
+                <div class="twelve wide column mobile-center vertical-center">
+                    <div class="mobile-center">
+                        <h1 class="topic-title">Resume</h1>
+                    </div>
+                </div>
+                <div class="two wide tablet only computer only column vertical-center align-right">
+                    <a href="/"> <img src="/images/close_icon3.png" width="30px"> </a>
+                </div>
+            </div>
+
+            
+            <div class="ui section divider"></div>
+            <!-- Section for Work Experience -->
+            <div class="row">
+                <div class="eight wide column mobile-center">
+                    <h1> <i class="briefcase icon"></i> Work Experience</h1>
+                </div>
+            </div>
+
+<!-- --------------------      Dobby Internship ----------------------------------- -->
+            <div class="sixteen wide column project-padding">
+                <div class="ui raised yellow padded segment">
+                    <div class="project-head">
+                        <img class="ui right floated medium image" src="images/DOBBY6.png" alt="">
+                        <div>
+                            <h2 class="project-title">DOBBY ADS - Internship</h2>
+                            <p class="meta"><a href="https://dobbyads.com/">Dobby </a></p>
+                            <p class="meta">Feb 2018 - April 2019 ( 3 months)</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>About</h3>
+                        <p>Dobby is an advertising startup. It installs LCDs in supermarkets and display
+                            adverisements of adveritsers based on their purchased subscriptions. Dobby also
+                            displays it's own ads and that of shop owners.
+                        </p>
+                        <h3>Role</h3>
+                        <div class="ui bulleted list">
+                            <!-- <div class="item">
+                                It contains two user interface, one for faculty and other for students.
+                            </div> -->
+                            <div class="item">
+                                Worked in backend and DevOps.
+                            </div>
+                            <div class="item">
+                                Restructured the whole backend code in MVC structure.
+                            </div>
+                            <div class="item">
+                                Implemented end to end backend flow of offerImage creation in which backend generates offerImages based on selected
+                                products and offervalues provided. Added cron job for it's everyday creation.
+                            </div>
+                            <div class="item">
+                                Did all DB architectural changes and optimization.
+                            </div>
+                            <div class="item">
+                                Created Test cases for testing all the modules.
+                            </div>
+                            <div class="item">
+                                Introduced ModSecurity with OWASP rules in Nginx to provide a decent security to server.
+                            </div>
+                            <div class="item">
+                            Introduced visual web log analyzer to monitor site hits, anamoly activities and blacklisting potentially harmful IPs.
+                            </div>
+                            <div class="item">
+                            Neutralized random crawlers and bots hits on portal.
+                            </div>
+                            <div class="item">
+                            Made multiple frontend projects and a base server live on same aws instance.
+                            </div>
+                            <div class="item">
+                            Maintainer of dev, test and prod branches of Frontend and backend projects.
+                            </div>
+                            <div class="item">
+                            Implemented continuous integration and continuous deployment of all frontend and backend projects.
+                            </div>
+                            
+                        </div>
+                        <h4>Techs</h4>
+                        <p>NodeJS, PostgreSQL, ExpressJS, SequelizeJS, Nginx.</p>
+                        <h4>Libraries and api</h4>
+                        <div class="ui bulleted list">
+                            <div class="item">node-schedule : For cron jobs.</div>
+                            <div class="item">passport : For user authentication and authorization.</div>
+                            <div class="item">jsonwebtoken : For token creation of user details.</div>
+                            <div class="item">bcrypt : For encrypting user password.</div>
+                            <div class="item">cors : To allow cross-origin resource sharing.</div>
+                            <div class="item">dotenv : To use env variables in code.</div>
+                            <div class="item">jimp : For image generation. </div>
+                            <div class="item">uuid : For creating unique userid for products of Dobby. </div>
+                            <div class="item">multer-gridfs-storage : For uploading and storing files.</div>
+                            <div class="item">body-parser : For parsing request bodies.</div>
+                            <div class="item">nodemon : Runs program and reloads if encounters changes in code.</div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+
+<!-- ------------------------------------------------------------------------------- -->
+            <div class="ui section divider"></div>
+            <!-- Section for Projects -->
+            <div class="row">
+                <div class="eight wide column mobile-center">
+                    <h1> <i class="laptop icon"></i> Projects</h1>
+                </div>
+            </div>
+<!-- ------------------------- student section ------------------------------------ -->
+            <div class="row">
+                <div class="eight wide column project-padding">
+                    <div class="ui raised red padded segment">
+                        <div class="project-head">
+                            <img class="ui right floated small image" src="images/stud1.jpg" alt="">
+                            <div>
+                                <p class="project-title">Student Section</p>
+                                <p class="meta"><a href="https://github.com/jalakpatoliya/student_section">student-section</a></p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Intro</h3>
+                            <p>
+                                It's my final year project, our team created a web app which is used by our college for abolishing and digitalizing their paper work.
+                            </p>
+                            <h3>Features</h3>
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    It contains two user interface, one for faculty and other for students. 
+                                </div>
+                                <div class="item">
+                                    Faculty can search details of any student using by id no., name, city,etc. 
+                                </div>
+                                <div class="item">
+                                    He can generate scholarship schemes and can use it as filter for students.
+                                </div>
+                                <div class="item">
+                                    He can send notification to student's account and to student's mail id too.
+                                </div>
+                                <div class="item">
+                                    Notifications could be instant or time based, in later email would be sent on selected date and time.
+                                </div>
+                                <div class="item">
+                                    Can filter out students who haven't submitted their term or exam fee in portal.
+                                </div>
+                                <div class="item">
+                                    Can upload excel file of data regarding term, hostel and exam fees, list of newly addmitted students, 
+                                </div>
+                                <div class="item">
+                                    Student can upload fees reciepts to app.
+                                </div>
+                            </div>
+
+                            <h3>Process</h3>
+                            <div class="ui bulleted list">
+                                
+                                <div class="item">
+                                    Faculty uploads new addmitted students file, from it new students signup are created.
+                                </div>
+                                <div class="item">
+                                    Student uploads their fees reciepts to app.
+                                </div>
+                                <div class="item">
+                                    Students who have not submitted reciepts are informed via notifications on their account and on their mail ids.
+                                </div>
+                                <div class="item">
+                                    Marksheet file of students recieved from university by college is uploaded and results of students is created on app, which is visible to faculties.
+                                </div>
+                            </div>
+                            <h4>Techs</h4>
+                            <p>NodeJS, MongoDB, EJS, ExpressJS, MongooseJS and Semantic UI.</p>
+                            <h4>Libraries and api</h4>
+                            <div class="ui bulleted list">
+                                <div class="item">node-schedule   : For sending sending emails and notifications on scheduled time.</div>
+                                <div class="item">nodemailer      : For sending mails.</div>
+                                <div class="item">all-object-keys : For making specific data available to all web-pages.</div>
+                                <div class="item">mongo-xlsx      : For converting excel file to mongo data.</div>
+                                <div class="item">passport        : For user authentication and authorization.</div>
+                                <div class="item">async           : For making async calls.</div>
+                                <div class="item">connect-flash   : To flash messages on screen.</div>
+                                <div class="item">multer-gridfs-storage : For uploading and storing files.</div>
+                                <div class="item">express-session : For creating web sessions.</div>
+                                <div class="item">body-parser : For parsing request bodies.</div>
+                                <div class="item">supervisor :  Runs program and reloads if encounters changes in code.</div>
+                                <div class="item">others          : gridfs-stream,deasync, cookie-parser,etc</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- ------------------------------- ChatBot ------------------------------------- -->
+<div class="eight wide column project-padding">
+    <div class="ui raised yellow padded segment">
+        <div class="project-head">
+            <img class="ui right floated small image" src="images/bot.jpg" alt="">
+            <div>
+                <p class="project-title">The Chat Bot</p>
+                <p class="meta"><a href="https://www.facebook.com/R1-d1-Bot-228906557807112/?view_public_for=228906557807112">Chat Bot</a></p>
+            </div>
+        </div>
+        <div class="project-content">
+            <h3>Intro</h3>
+            <p>
+            It's a Facebook messenger integrated AI Bot which is trained for automizing the interview process. However it can be
+            trained for any other purposes too.
+            </p>
+            <h3>Features</h3>
+            <div class="ui bulleted list">
+                <div class="item">
+                    It uses NLP so can pick up the words and can answer appropriately.
+                </div>
+                <div class="item">
+                    Context is also maintained by bot.
+                </div>
+                <div class="item">
+                    Quick replies are made available in it.
+                </div>
+                <div class="item">
+                    Right now its integrated with facebook app, can also integrate it with any personal or professional
+                    site.
+                </div>
+                <div class="item">
+                    Data recieved from the chat can also be saved.
+                </div>
+                <div class="item">
+                    Can also integrate it to the Google Assistant, Amazon Alexa, Microsoft Cortana, Slack, Viber,
+                    Twitter, Telegram, Skype, Line, etc.
+                </div>
+                <div class="item">
+                    It can also perform small talks, faq, etc.
+                </div>
+                <div class="item">
+                    By using it company can automate any specific workflow easily, thus saving menpower utlizing
+                    technology.
+                </div>
+            </div>
+
+            <h4>Techs</h4>
+            <p>NodeJS, DialogFlow, Facebook Messenger App, MongoDB, EJS, ExpressJS, MongooseJS and Semantic UI.</p>
+            <h4>Libraries and api</h4>
+            <div class="ui bulleted list">
+                <div class="item">nodemailer : For sending mails</div>
+                <div class="item">body-parser : For parsing request bodies.</div>
+                <div class="item">apiai : For conversing to the dialogflow.</div>
+                <div class="item">uuid : For making unique user id.</div>
+                <div class="item">request : For making request call to api and recieve data from it.</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- --------------------------------- Recipedia -------------------------------- -->
+                <div class="eight wide column project-padding">
+                    <div class="ui raised yellow padded segment">
+                        <div class="project-head">
+                            <img class="ui right floated small image" src="images/rec5.png" alt="">
+                            <div>
+                                <p class="project-title">Recipedia</p>
+                                <p class="meta"><a href="https://recipedia-web-app.herokuapp.com/">Recipedia.com</a></p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Intro</h3>
+                            <p>
+                                It's a web-app which has more than 1,000,000 recipes.
+                            </p>
+                            <h3>Features</h3>
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    User can search recipe.
+                                </div>
+                                <div class="item">
+                                    Recipe list appears in order according to algorithm which takes social ranking and ohter factors in count.
+                                </div>
+                                <div class="item">
+                                    Can view recipe list and view specific recipe in details.
+                                </div>
+                                <div class="item">
+                                    Can view its ingredients, change servings, see recipe time.
+                                </div>
+                                <div class="item">
+                                    User can save recipe as favorite.
+                                </div>
+                                <div class="item">
+                                    User can add ingredients required in recipe to it's shopping list.
+                                </div>
+                                <div class="item">
+                                    He can change count amount of ingredients in it.
+                                </div>
+                                <div class="item">
+                                    User's favorite recipes are stored and available always.
+                                </div>
+                            </div>
+                            
+                            <h4>Techs</h4>
+                            <p>NodeJS,Express, ES6.</p>
+                            <h4>Libraries and api</h4>
+                            <div class="ui bulleted list">
+                                <div class="item">Food2Fork : For recieving data of recipes.</div>
+                                <div class="item">Request : For making request call to api and recieve data from it.</div>
+                                <div class="item">Webpack : To bundle together all JS modules</div>
+                                <div class="item">Babel : For converting ES6 code to ES5.</div>
+                                <div class="item">babel-polyfill : To polyfill code which can't be converted to ES5. </div>
+                                <div class="item">fraction.js : To convert decimal numbers to fractions </div>
+                                <div class="item">uniqid : For creating unique ids for recipes.</div>
+                                <div class="item">supervisor : Runs program and reloads if encounters changes in code.</div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+<!-- ------------------------------------- CampAdventures ----------------------- -->
+                <div class="eight wide column project-padding">
+                    <div class="ui raised blue padded segment">
+                        <div class="project-head">
+                            <img class="ui right floated small image" src="images/camp5.png" alt="">
+                            <div>
+                                <p class="project-title">CampAdventures</p>
+                                <p class="meta"><a href="https://camp-adventures.herokuapp.com/">CampAdventures.com</a></p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Intro</h3>
+                            <p>
+                                It's social-app in which user can share their camping experiences by posting it and can view others camping review of different places.Can also comment on others posts. 
+                            </p>
+                            <h3>Features</h3>
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    User can post their camps, write about their experience, share it's pic, show its expenses.
+                                </div>
+                                <div class="item">
+                                    User can signup and have an account.
+                                </div>
+                                <div class="item">
+                                    User can view others camps after logging in. Can also comment on them.
+                                </div>
+                                <div class="item">
+                                    User can update or delete their camps details such as image, description, name and expense. He/She can also update or delet comments made by him/her.
+                                </div>
+                                
+                            </div>
+                            
+                            <h4>Techs</h4>
+                            <p>NodeJS, MongoDB, EJS, ExpressJS, MongooseJS, PassportJS and Semantic UI.</p>
+                            <h4>Libraries and api</h4>
+                            <div class="ui bulleted list">
+                                <div class="item">passport,passport-local,passport-local-mongoose : For user authentication and authorization.</div>
+                                <div class="item">connect-flash : To flash messages on screen.</div>
+                                <div class="item">express-session : For creating web sessions.</div>
+                                <div class="item">body-parser : For parsing request bodies.</div>
+                                <div class="item">supervisor : Runs program and reloads if encounters changes in code.</div>
+                                <div class="item">others : method-override</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!------------------------------------------ MovieResearcher --------------------------->
+
+                <div class="eight wide column project-padding">
+                    <div class="ui raised pink padded segment">
+                        <div class="project-head">
+                            <img class="ui right floated small image" src="images/mov6.png" alt="">
+                            <div>
+                                <p class="project-title">MovieResearcher</p>
+                                <p class="meta"><a href="https://movie-search-web-app.herokuapp.com/">MovieResearcher.com</a></p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Intro</h3>
+                            <p>
+                                It's a web-app in which one can search a movie and see it's details like imdb ratings, director, cast, runtime, writer, awards, plot, etc.
+                            </p>
+                            <h3>Features</h3>
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    User can search movie.
+                                </div>
+                                <div class="item">
+                                    On search a list of movies is shown from which user can select a specific movie.
+                                </div>
+                                <div class="item">
+                                    On search input app shows all movies with matching title.
+                                </div>
+                                <div class="item">
+                                    The navigation of pages is such that one can navigate to any previous searches.
+                                </div>
+                                <div class="item">
+                                    He can send notification to student's account and to student's mail id too.
+                                </div>
+                                <div class="item">
+                                    The app uses omdb api, which has a huge data of movie's detials.
+                                </div>
+                                
+                            </div>
+                            
+                            
+                            <h4>Techs</h4>
+                            <p>NodeJS, EJS, ExpressJS and Semantic UI.</p>
+                            <h4>Libraries and api</h4>
+                            <div class="ui bulleted list">
+                               
+                                <div class="item">omdb api : For sending requests and retrieve data of movies.</div>
+                                <div class="item">request : For making request call to api and recieve data from it.</div>
+                                <div class="item">supervisor : Runs program and reloads if encounters changes in code.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- -------------------------------------- The DiceGame -------------------------------- -->
+                <div class="eight wide column project-padding">
+                    <div class="ui raised purple padded segment">
+                        <div class="project-head">
+                        <img class="ui right floated small image" src="images/dice.gif" alt="">
+                        <div>
+                            <p class="project-title">The DiceGame</p>
+                            <p class="meta"><a href="https://dice-game-web-app.herokuapp.com/">DiceGAME</a></p>
+                        </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Intro</h3>
+                            <p>
+                                It's dice game created for two players, it's a frontend game created using ES6 and CSS3.
+                            </p>
+                            <h3>Game play</h3>
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    Player rolls the dice and has choice either to save score or to roll again.
+                                </div>
+                                <div class="item">
+                                    If player saves, the current dice score is added to it's total score and chance to roll dice goes to oponent. 
+                                </div>
+                                <div class="item">
+                                    If player chooses to roll the dice and if both dices shows one, one number then current score of player is not saved and turn goes to oponent.
+                                </div>
+                                <div class="item">
+                                    So, a player can roll dice till the both dices shows one one number.
+                                </div>
+                                <div class="item">
+                                    The player who succeeds to score more than 99 total score is declared as winner.
+                                </div>
+                                <div class="item">
+                                    The players can any time opt for a new game.
+                                </div>
+                            </div>
+                            
+                            
+                            <h4>Techs</h4>
+                            <p>NodeJS, ES6, ExpressJS, HTML5, CSS3.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+<!-- ------------------------------ The Github card -------------------------------------- -->
+                <div class="eight wide column project-padding">
+                    <div class="ui raised purple padded segment">
+                        <div class="project-head">
+                            <img class="ui right floated small image" src="images/git1.gif" alt="">
+                            <div>
+                                <p class="project-title">The GitHub Card</p>
+                                <p class="meta"><a href="https://github-card.herokuapp.com/">GitHub-Card</a></p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Intro</h3>
+                            <p>
+                                It's a GitHub-Card which can be used by anyone in their own website.Though it's currently under construction, I'm making it more dynamic and easy to use and embedable code.
+                            </p>
+                            <h3>Features</h3>
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    It's easy to use interface, just give the git account name and the github card will be shown to user. 
+                                </div>
+                                <div class="item">
+                                    User can simply copy code in it's own website and use it.
+                                </div>
+                                <div class="item">
+                                    The card is responsive for mobile too.
+                                </div>
+                                <div class="item">
+                                    It's look is better than available cards. 
+                                </div>
+                            </div>
+                
+                            <h4>Techs</h4>
+                            <p>NodeJS, EJS, ExpressJS and Semantic UI.</p>
+                            <h4>Libraries and api</h4>
+                            <div class="ui bulleted list">
+                                <div class="item">github-scraper : Api used for retrieving data of git account.</div>
+                                <div class="item">request : For handling request calls to the api</div>
+                                <div class="item">supervisor : Runs program and reloads if encounters changes in code.</div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+<!-- ---------------------------------- Bookmarker App --------------------- -->
+                <div class="eight wide column project-padding">
+                    <div class="ui raised purple padded segment">
+                        <div class="project-head">
+                            <img class="ui right floated small image" src="images/book2.png" alt="">
+                            <div>
+                                <p class="project-title">The BookMarker </p>
+                                <p class="meta"><a href="https://bookmarker-web-app.herokuapp.com/">Bookmarker</a></p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                                <h3>Intro</h3>
+                                <p>
+                                    It's web app to bookmark your favorite site.
+                                </p>
+                                <h3>Features</h3>
+                                <div class="ui bulleted list">
+                                    <div class="item">
+                                        User can save the url of site with a name of it.
+                                    </div>
+                                    <div class="item">
+                                        User can visit the saved bookmarks on clicking the visit button made available with it.
+                                    </div>
+                                    <div class="item">
+                                        User can also delete the bookmark.
+                                    </div>
+                                    <div class="item">
+                                        The bookmarked sited are available even after closing of window or the web browser.
+                                    </div>
+                                </div>
+                            
+                                
+                                <h4>Techs</h4>
+                                <p>HTML, CSS, Javascript, Bootstrap.</p>
+                
+                        </div>
+                    </div>
+                </div>
+<!-- ---------------------------------------------------------------------------------------- -->
+
+            </div>
+
+            <div class="ui section divider"></div>
+
+            <div class="row">
+                <div class="eight wide column mobile-center">
+                    <h1> <i class="cubes icon"></i> Technologies</h1>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/node-js.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/mongodb1.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/postgres4.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui large image" src="/images/NGINX2.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/mongoose-js.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/sequelize2.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/express-js.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/ejs.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/javascript-logo.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/html-5.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/css-3.png">
+                    </div>
+                </div>
+                <div class="four wide column align-center logo-margin">
+                    <div class="logo">
+                        <img class="ui small image" src="/images/semanticUI2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+</div>
+
+<% include ./partials/footer %>

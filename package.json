@@ -1,0 +1,14 @@
+{
+  "name": "web-resume",
+  "description": "web-resume",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

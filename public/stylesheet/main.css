@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #eee;
+}
+
+.align-center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.topic-name {
+  color:black;
+  font-style: normal;
+  font-size: 18px
+}
+
+.content {
+    font-size: 18px;
+}
+
+.icons {
+    font-size: 35px;
+}
+
+.project-head {
+    padding-bottom: 20px !important; 
+    border-bottom: 0.5px solid #ccc;
+    margin-bottom: 15px !important;
+}
+
+.project-title {
+    font-size: 20px;
+}
+
+.project-content > p {
+    font-size: 14px;
+}
+
+.project-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

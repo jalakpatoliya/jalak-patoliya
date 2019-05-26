@@ -1,0 +1,186 @@
+<!-- <% include ./partials/header %>
+    
+      <div class="ui container">
+        <div class="ui raised segment">
+          <div class="ui stackable grid">
+            <div class="row">
+              <div class="three wide column">
+              </div>
+              <div class="four wide column">
+                <img class="ui  large circular image" src="/images/jp5.5.2.jpg">
+              </div>
+              <div class="nine wide column">
+                  
+                    <h1 style="font-size:60px;"><br>
+                      Jalak Patoliya
+                      <h1 style="font-weight: normal;">
+                        Full Stack Developer
+                      </h1>
+                    </h1>
+
+
+
+              </div>
+            </div>
+
+            <div class="ui horizontal divider"></div>
+
+            <div class="row">
+              <div class="two wide column"></div>
+              <div class="three wide column">
+                <a href="/about_me">
+                    <img id="a"class="ui  medium circular image" src="/images/about.png" onmouseover="hover(this);" onmouseout="unhover(this);">
+                    <br> <span style="color:black;font-style: normal;font-size:20px">&nbsp; &ensp; &emsp;About Me</span>
+                </a>
+              </div>
+              <div class="three wide column">
+                <a href="/resume">
+                  <img id="b" class="ui  medium circular image" src="/images/resume.png" onmouseover="hover(this);" onmouseout="unhover(this);">
+                  <br> <span style="color:black;font-style: normal;font-size:20px">&nbsp;&nbsp; &ensp; &emsp;Resume</span>
+                </a>
+              </div>
+              <div class="three wide column">
+                <a href="https://github.com/jalakpatoliya">
+                  <img id="c" class="ui  medium circular image" src="/images/github.png" onmouseover="hover(this);" onmouseout="unhover(this);">
+                  <br> <span style="color:black;font-style: normal;font-size:20px">&nbsp;&nbsp;&nbsp; &ensp; &emsp;GitHub</span>
+                </a>
+              </div>
+              <div class="three wide column">
+                <a href="mailto:jalakpatoliya777@gmail.com">
+                    <img id="d" class="ui  medium circular image" src="/images/contact.png" onmouseover="hover(this);" onmouseout="unhover(this);">
+                    <br> <span style="color:black;font-style: normal;font-size:20px">&emsp; &ensp; &emsp;Contact</span>
+                </a>
+              </div>
+              <div class="one wide column"></div>
+            </div>
+            <br><br>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <script type="text/javascript">
+          function hover(element) {
+            if (element.id=='a') {
+              element.setAttribute('src', '/svg/about.gif');
+            } else if(element.id=='b') {
+              element.setAttribute('src', '/svg/resume.gif');
+            } else if(element.id=='c') {
+              element.setAttribute('src', '/svg/github.gif');
+            } else if(element.id=='d') {
+              element.setAttribute('src', '/svg/contact.gif');
+            }
+          }
+
+          function unhover(element) {
+            if (element.id=='a') {
+              element.setAttribute('src', '/images/about.png');
+            } else if(element.id=='b') {
+              element.setAttribute('src', '/images/resume.png');
+            } else if(element.id=='c') {
+              element.setAttribute('src', '/images/github.png');
+            } else if(element.id=='d') {
+              element.setAttribute('src', '/images/contact.png');
+            }
+          }
+      </script>
+
+<% include ./partials/footer %> -->
+
+
+<% include ./partials/header %>
+
+<div class="ui container">
+  <br>
+  <div class="ui raised segment">
+    <div class="ui stackable grid">
+      <div class="row">
+        <div class="three wide column">
+        </div>
+        <div class="four wide column align-center margin-all">
+          <div class="profile-pic mobile-center ">
+            <img class="ui medium circular image" src="/images/jp5.5.2.jpg">
+          </div>
+        </div>
+
+        <div class="nine wide column vertical-center margin-all">
+          <div class="mobile-center">
+            <h1 class="name-title">Jalak Patoliya</h1>
+            <h2 class="job-title">Full Stack Developer</h2>
+            <h1 class="icons">
+              <a href="https://twitter.com/JalakPatolia"><i class="twitter icon"></i></a>
+              <a href="https://www.linkedin.com/in/jalak-patoliya-66722410b/"><i class="linkedin icon"></i></a>
+              <a><i class="mobile alternate icon"  data-content="+91-7405320323"></i></a>
+            </h1>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="ui section divider"></div>
+
+      <div class="row">
+
+        <div class="two wide column"></div>
+
+        <div class="three wide column">
+          <center>
+            <a href="/about_me">
+              <img class="ui small circular image" src="/images/about.png" data-imagename="about" onmouseover="hover(this);"
+                onmouseout="unhover(this);">
+              <br>
+              <span class="topic-name">About Me</span>
+            </a>
+          </center>
+        </div>
+
+        <div class="three wide column">
+          <center>
+            <a href="/resume">
+              <img class="ui small circular image" src="/images/resume.png" data-imagename="resume" onmouseover="hover(this);"
+                onmouseout="unhover(this);">
+              <br>
+              <span class="topic-name">Resume</span>
+            </a>
+          </center>
+        </div>
+
+        <div class="three wide column">
+          <center>
+            <a href="https://github.com/jalakpatoliya">
+              <img class="ui small circular image" src="/images/github.png" data-imagename="github" onmouseover="hover(this);"
+                onmouseout="unhover(this);">
+              <br>
+              <span class="topic-name">Github</span>
+            </a>
+          </center>
+        </div>
+
+        <div class="three wide column">
+          <center>
+            <a href="mailto:jalakpatoliya@gmail.com">
+              <img class="ui small circular image" src="/images/contact.png" data-imagename="contact" onmouseover="hover(this);"
+                onmouseout="unhover(this);">
+              <br>
+              <span class="topic-name">Contact</span>
+            </a>
+          </center>
+        </div>
+
+        <div class="two wide column"></div>
+
+      </div>
+    </div>
+  </div><br>
+</div>
+
+<% include ./partials/footer %>
+
+<script>
+  $('.mobile.alternate.icon')
+    .popup({
+      position: 'right center'
+    });
+</script>
