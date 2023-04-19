@@ -4,7 +4,7 @@ const http = require('http');
 const path = require('path');
 const reload = require('reload');
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 
 
 app.set("view engine", "ejs");
