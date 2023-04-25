@@ -3,9 +3,12 @@ const app = express();
 const http = require('http');
 const path = require('path');
 const reload = require('reload');
+const compression = require('compression');
 
 var port = process.env.PORT || 8080;
 
+// Compress all HTTP responses
+app.use(compression());
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
